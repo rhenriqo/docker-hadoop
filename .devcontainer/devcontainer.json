@@ -1,0 +1,4 @@
+{
+  "name": "docker-hadoop",
+  "postStartCommand": "sudo iptables-legacy -P FORWARD ACCEPT"
+}
